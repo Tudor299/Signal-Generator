@@ -1,0 +1,7 @@
+ lib=D:\scoala\programe\Cadence\SPB_16.5\tools\PSpice\Library\jdiode.lib, offset=515, size=111
+ lib=D:\scoala\programe\Cadence\SPB_16.5\tools\PSpice\Library\diode.lib, offset=7527, size=153
+ lib=D:\scoala\programe\Cadence\SPB_16.5\tools\PSpice\Library\bipolar.lib, offset=283407, size=318
+ lib=D:\scoala\programe\Cadence\SPB_16.5\tools\PSpice\Library\bipolar.lib, offset=283091, size=315
+ lib=D:\scoala\programe\Cadence\SPB_16.5\tools\PSpice\Library\breakout.lib, offset=9160, size=133
+ lib=D:\scoala\programe\Cadence\SPB_16.5\tools\PSpice\Library\opamp.lib, offset=30388, size=419
+ lib=D:\scoala\programe\Cadence\SPB_16.5\tools\PSpice\Library\opamp.lib, offset=29277, size=1110

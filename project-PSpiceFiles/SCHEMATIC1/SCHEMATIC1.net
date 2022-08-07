@@ -1,0 +1,40 @@
+* source PROJECT
+R_R22         N41941 OUTD R_R22 160 TC=0,0 
+.model        R_R22 RES R=1 DEV=1% TC1=0 TC2=0
+R_R23         N42139 N41627 R_R23 3.82k TC=0,0 
+.model        R_R23 RES R=1 DEV=1% TC1=0 TC2=0
+X_POT31         N41633 N41615 N41627 POT PARAMS: SET={setF} VALUE=3.4k
+D_D21         N42199 N42139 BZ-056 
+Q_Q4         -15V N41795 OUTT MPS2907
+D_D22         N42199 0 BZ-056 
+R_R11         OUTT N41601 R_R11 4k TC=0,0 
+.model        R_R11 RES R=1 DEV=1% TC1=0 TC2=0
+C_C31         N41567 OUTT C_C31 30n  TC=0,0 
+.model        C_C31 CAP C=1 DEV=20% TC1=0 TC2=0 VC1=0 VC2=0
+V_V2         -15V 0 -15
+X_POT21         N41941 N41941 0 POT PARAMS: SET={setD} VALUE=800
+R_R31         N41615 N41567 R_R31 2.5k TC=0,0 
+.model        R_R31 RES R=1 DEV=1% TC1=0 TC2=0
+R_R32         0 N41633 R_R32 4k TC=0,0 
+.model        R_R32 RES R=1 DEV=1% TC1=0 TC2=0
+R_Rout         0 OUTT R_Rout 15 TC=0,0 
+.model        R_Rout RES R=1 DEV=1% TC1=0 TC2=0
+Q_Q5         15V N41799 OUTT MPS2716
+R_R12         N41627 N41601 R_R12 15k TC=0,0 
+.model        R_R12 RES R=1 DEV=5% TC1=0 TC2=0
+R_R13         0 N41585 R_R13 3k TC=0,0 
+.model        R_R13 RES R=1 DEV=1% TC1=0 TC2=0
+D_D41         N41799 N41775 D1N3064 
+R_R21         OUTD N41627 R_R21 1k TC=0,0 
+.model        R_R21 RES R=1 DEV=1% TC1=0 TC2=0
+R_R42         -15V N41795 R_R42 0.5k TC=0,0 
+.model        R_R42 RES R=1 DEV=1% TC1=0 TC2=0
+D_D42         N41775 N41795 D1N3064 
+X_U1A         N41601 N41585 15V -15V N41627 LF412
+R_R41         N41799 15V R_R41 0.5k TC=0,0 
+.model        R_R41 RES R=1 DEV=1% TC1=0 TC2=0
+V_V1         15V 0 15
+X_U2B         N41643 N41567 15V -15V N41775 LF412
+R_R33         0 N41643 R_R33 10k TC=0,0 
+.model        R_R33 RES R=1 DEV=1% TC1=0 TC2=0
+.PARAM  setd=0.5 setf=0.5

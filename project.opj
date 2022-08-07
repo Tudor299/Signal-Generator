@@ -1,0 +1,65 @@
+(ExpressProject "project"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\project.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\SCOALA\AN II\SEM 2\COMPUTER AIDED DESIGN\PROJECT\PROJECT\PROJECT.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Description}\t{Manufacturer}\t{Vendor}")
+    (BOM_Header "Description\tManufacturer\tVendor")
+    (BOM_Include_File
+       "D:\SCOALA\AN II\SEM 2\COMPUTER AIDED DESIGN\PROJECT\PROJECT\PROJECT.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\project-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\project.bom"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\project-pspicefiles\schematic1\time.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\project-pspicefiles\schematic1\time.sim"
+        (DisplayName "SCHEMATIC1-time")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 430"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 234 1871 234 703")
+        (Scroll "-26 285")
+        (Zoom "184")
+        (Occurrence "/"))
+      (Path
+         "D:\SCOALA\AN II\SEM 2\COMPUTER AIDED DESIGN\PROJECT\PROJECT\PROJECT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
